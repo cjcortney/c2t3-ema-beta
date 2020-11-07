@@ -14,3 +14,8 @@ $(document).ready(function(){
         console.log('broken');
     }
 });
+
+function toggleActiveNavLink(link){
+    $('.navbar-nav').find('li.active').removeClass('active');
+    $("#" + link).addClass( 'active' );
+}

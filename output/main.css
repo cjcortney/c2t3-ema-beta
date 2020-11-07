@@ -25,7 +25,6 @@ h1,h3{
 .card {
     background: #dcdde1;
     width: 300px;
-    /* padding: 50px; */
     margin-top: 30px;
     text-align: center;
     /* https://www.w3schools.com/howto/howto_css_cards.asp */
@@ -185,10 +184,12 @@ td img {
 }
 
 .navbar-nav li > a:hover, .navbar-nav li > a:focus {
-    background-color: #005596;
+    background-color: #5f676d;
     color: #fff;
+    border-radius:.25rem;
 }
 .navbar-nav li.active > a {
-    background-color: #3990E0;
+    background-color: #848d94;
     color: white;
+    border-radius:.25rem;
 }
